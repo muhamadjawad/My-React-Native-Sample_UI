@@ -1,15 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {View, StyleSheet, Text, Image, FlatList} from 'react-native';
-import {
-  COLOR_SECONDARY,
-  COLOR_HIGHLIGHT,
-  COLOR_PRIMARY,
-  COLOR_PURPY,
-  COLOR_WHITE,
-} from './colors';
-import {Icon} from 'react-native-elements';
+import {COLOR_SECONDARY, COLOR_HIGHLIGHT, COLOR_PRIMARY} from './colors';
 import {height, width} from '../../Style/dimensions';
 import Images from '../../Assets/Images';
+import RenderIcon from './component/RenderIcon';
 const Light1 = props => {
   const DATA = [
     {title: 'Jawad', detail: 'my portfolio', active: false},
@@ -18,32 +12,32 @@ const Light1 = props => {
     {title: 'Jawad', detail: 'my portfolio', active: false},
     {title: 'Jawad', detail: 'my portfolio', active: false},
   ];
-  const RenderIcon = ({name, size = width(5), active = false}) => {
-    return (
-      <View
-        style={[
-          styles.iconMainContainer,
-          {
-            backgroundColor: active ? 'transparent' : COLOR_HIGHLIGHT,
-          },
-        ]}>
-        <View
-          style={[
-            styles.iconInnerContainer,
-            {
-              backgroundColor: active ? COLOR_PURPY : COLOR_PRIMARY,
-            },
-          ]}>
-          <Icon
-            name={name}
-            type="ionicon"
-            color={active ? COLOR_PRIMARY : COLOR_SECONDARY}
-            size={size}
-          />
-        </View>
-      </View>
-    );
-  };
+  // const RenderIcon = ({name, size = width(5), active = false}) => {
+  //   return (
+  //     <View
+  //       style={[
+  //         styles.iconMainContainer,
+  //         {
+  //           backgroundColor: active ? 'transparent' : COLOR_LIGHT_MELA,
+  //         },
+  //       ]}>
+  //       <View
+  //         style={[
+  //           styles.iconInnerContainer,
+  //           {
+  //             backgroundColor: active ? COLOR_PURPY : COLOR_PRIMARY,
+  //           },
+  //         ]}>
+  //         <Icon
+  //           name={name}
+  //           type="ionicon"
+  //           color={active ? COLOR_PRIMARY : COLOR_SECONDARY}
+  //           size={size}
+  //         />
+  //       </View>
+  //     </View>
+  //   );
+  // };
 
   const RenderItem = item => {
     return (

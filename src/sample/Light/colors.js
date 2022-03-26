@@ -1,6 +1,8 @@
 export const COLOR_WHITE = 'white';
 export const COLOR_MELA_WHITE = '#e1ebfc';
+export const COLOR_LIGHT_MELA = '#edf2fa';
 export const COLOR_PURPY = '#7d9eff';
+export const COLOR_BLACK = 'black';
 export const COLOR_DARK_GRAY = '#a1b0c9';
 
 export const COLOR_PRIMARY = COLOR_MELA_WHITE; // '#dfe9fd';
