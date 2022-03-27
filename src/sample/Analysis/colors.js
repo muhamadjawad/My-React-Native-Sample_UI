@@ -1,0 +1,14 @@
+export const COLOR_DARK_PURPLE = '#381840';
+export const COLOR_DULL_PURPLE = '#451d50';
+export const COLOR_LIGHT_PURPLE = '#9e78a8';
+export const COLOR_HIGHLIGHT_PURPLE = '#735c79';
+export const COLOR_ORANGE = '#ff855c';
+export const COLOR_DULL_ORANGE = '#ffa689';
+export const COLOR_WHITE = 'white';
+export const COLOR_BLACK = '#00000';
+export const COLOR_GREEN = '#8dd0b0';
+export const COLOR_HIGHLIGHT_GREEN = '#f2faf6';
+export const COLOR_PEACH = '#ed6d6d';
+export const COLOR_HIGHLIGHT_PEACH = '#fdf0f0';
+export const COLOR_DULL_YELLOW = '#fdd19d';
+export const COLOR_RED = 'red';
