@@ -12,6 +12,8 @@ target 'My_React_Native_Portfolio' do
     :hermes_enabled => false
   )
 
+  pod 'RNTextGradientView', :path => '../node_modules/react-native-text-gradient'
+
   target 'My_React_Native_PortfolioTests' do
     inherit! :complete
     # Pods for testing

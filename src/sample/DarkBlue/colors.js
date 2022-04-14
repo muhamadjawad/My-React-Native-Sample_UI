@@ -1,0 +1,11 @@
+export const DARK_BLUE_COLORS = {
+  COLOR_DARK_BLACK: '#102631',
+  COLOR_RED: 'red',
+  COLOR_WHITE: 'white',
+  COLOR_DARK_GRAY: '#293c43',
+  COLOR_BLUE: '#2d76d2',
+  COLOR_BRIGHT_GREEN: '#46ea90',
+  COLOR_SKY_BLUE: '#1fc6c9',
+  COLOR_YELLOW: '#e2eb38',
+  COLOR_LIGHT_GRAY: '#b1bdc1',
+};
