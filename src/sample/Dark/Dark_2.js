@@ -50,8 +50,8 @@ const Dark_2 = () => {
       <GradientCircle />
       <View style={{flexDirection: 'row', marginTop: height(5)}}>
         <BottomBox icon={'power'} />
-        <BottomBox icon={'water'} type={'material-community'} />
-        <BottomBox icon={'wb-sunny'} type={'material'} active={true} />
+        <BottomBox icon={'water'} type={'material-community'} active={true} />
+        <BottomBox icon={'wb-sunny'} type={'material'} />
         <BottomBox icon={'fan'} type={'material-community'} />
       </View>
       <View style={{position: 'absolute', bottom: 0}}>

@@ -7,5 +7,7 @@ export const DARK_BLUE_COLORS = {
   COLOR_BRIGHT_GREEN: '#46ea90',
   COLOR_SKY_BLUE: '#1fc6c9',
   COLOR_YELLOW: '#e2eb38',
-  COLOR_LIGHT_GRAY: '#b1bdc1',
+  COLOR_LIGHT_GRAY: '#3e5f69',
+  DARK_PEACH: '#fd5476',
+  LIGHT_PEACH: '#fe8979',
 };

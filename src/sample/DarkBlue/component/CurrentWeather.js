@@ -28,7 +28,7 @@ const CurrentWeather = props => {
             source={Images.cloudStorm2}
             style={{
               // width: width(2),
-              height: height(19),
+              height: height(15),
               resizeMode: 'contain',
             }}
           />
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     borderRadius: width(8),
     paddingVertical: height(2),
     flexDirection: 'row',
-    marginTop: height(5),
+
     borderWidth: 1,
     borderColor: DARK_BLUE_COLORS.COLOR_DARK_GRAY,
   },

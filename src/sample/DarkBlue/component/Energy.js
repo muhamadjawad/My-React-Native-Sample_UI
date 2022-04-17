@@ -8,17 +8,16 @@ const Energy = () => {
   return (
     <View
       style={{
-        marginTop: height(3),
+        marginTop: height(2),
       }}>
       <LinearGradient
         useAngle={true}
-        angle={160}
-        angleCenter={{x: 0.2, y: 1}}
+        angle={30}
+        angleCenter={{x: 0.5, y: 0.8}}
         colors={[
           DARK_BLUE_COLORS.COLOR_BLUE,
-          DARK_BLUE_COLORS.COLOR_BLUE,
 
-          // DARK_BLUE_COLORS.COLOR_DARK_GRAY,
+          DARK_BLUE_COLORS.COLOR_BLUE,
 
           DARK_BLUE_COLORS.COLOR_BRIGHT_GREEN,
         ]}
@@ -26,8 +25,11 @@ const Energy = () => {
           flexDirection: 'row',
           backgroundColor: DARK_BLUE_COLORS.COLOR_BRIGHT_GREEN,
           width: width(95),
-          borderRadius: width(10),
-          paddingVertical: height(1),
+          borderRadius: width(7),
+          paddingVertical: height(3),
+          borderWidth: 1,
+          borderColor: DARK_BLUE_COLORS.COLOR_LIGHT_GRAY,
+          elevation1: 5,
         }}>
         <View
           style={{flex: 0.7, paddingLeft: width(5), justifyContent: 'center'}}>
@@ -48,8 +50,8 @@ const Energy = () => {
           <Image
             source={Images.energy}
             style={{
-              width: width(12),
-              height: height(20),
+              // width: width(12),
+              height: height(6),
               resizeMode: 'contain',
             }}
           />
@@ -61,17 +63,17 @@ const Energy = () => {
 
 const styles = StyleSheet.create({
   energy: {
-    fontSize: width(5),
-    color: DARK_BLUE_COLORS.COLOR_LIGHT_GRAY,
+    fontSize: width(4.5),
+    color: DARK_BLUE_COLORS.COLOR_YELLOW,
   },
   speed: {
-    fontSize: width(4.5),
+    fontSize: width(4),
     color: DARK_BLUE_COLORS.COLOR_WHITE,
     fontWeight: 'bold',
   },
   detail: {
     fontSize: width(4),
-    color: DARK_BLUE_COLORS.COLOR_LIGHT_GRAY,
+    color: DARK_BLUE_COLORS.COLOR_YELLOW,
   },
 });
 export default Energy;

@@ -13,14 +13,14 @@ const DarkHeader = () => {
         alignItems: 'center',
         justifyContent: 'space-between',
         width: width(90),
-        marginTop: height(1),
+        marginTop: height(1.5),
       }}>
       <View style={[Styles.imageContainer]}>
         <Icon
           name="grid-view"
           type="material"
           color={DARK_BLUE_COLORS.COLOR_WHITE}
-          size={width(6)}
+          size={width(5)}
         />
       </View>
       <View>
@@ -29,7 +29,7 @@ const DarkHeader = () => {
       <View style={[Styles.imageContainer]}>
         <Image
           source={Images.userAvatar}
-          style={{height: '50%', width: '50%'}}
+          style={{height: '46%', width: '46%'}}
         />
       </View>
     </View>
@@ -39,8 +39,8 @@ const DarkHeader = () => {
 const Styles = StyleSheet.create({
   imageContainer: {
     backgroundColor: DARK_BLUE_COLORS.COLOR_DARK_GRAY,
-    width: width(17),
-    height: width(17),
+    width: width(14),
+    height: width(14),
     borderRadius: width(50),
     justifyContent: 'center',
     alignItems: 'center',

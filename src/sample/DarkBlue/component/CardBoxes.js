@@ -10,7 +10,7 @@ const CardBoxes = () => {
       <LinearGradient
         useAngle={true}
         angle={60}
-        angleCenter={{x: 0.2, y: 0.0}}
+        angleCenter={{x: 0.8, y: 0.5}}
         colors={[
           DARK_BLUE_COLORS.COLOR_DARK_BLACK,
           DARK_BLUE_COLORS.COLOR_DARK_BLACK,
